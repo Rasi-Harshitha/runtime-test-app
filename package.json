@@ -1,7 +1,14 @@
 {
-  "name": "runtime-test-app",
+  "name": "node-runtime-diff-demo",
   "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
   "engines": {
     "node": "22.x"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
